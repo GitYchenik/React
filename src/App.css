@@ -1,15 +1,30 @@
 .app-wrapper {
   display: grid;
+/*разбиение на колонки и строки и буква означает расположение в таблице*/
+  grid-template-areas: 
+  "h h"
+  "n c";
+
+  grid-template-columns: 2fr 10fr; 
+  grid-template-rows: 80px 1fr; 
+  /*gap: 0px 0px;*/  
 }
 
 .header {
   grid-area: h;
+  background-color:rosybrown;
+}
+
+.header img{
+  width: 110px;
 }
 
 .nav {
-  grid-area: n;
+  grid-area: n; 
+  background-color:aqua; 
 }
 
 .content {
   grid-area: c;
+  background-color:lightsteelblue
 }
