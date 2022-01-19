@@ -1,13 +1,17 @@
 .app-wrapper {
   display: grid;
+  height: 100%;
+  width: 100%;
 /*разбиение на колонки и строки и буква означает расположение в таблице*/
   grid-template-areas: 
   "h h"
   "n c";
 
-  grid-template-columns: 2fr 10fr; 
-  grid-template-rows: 80px 1fr; 
+  grid-template-columns: 10% 90%; 
+  grid-template-rows: 10% 90%; 
   /*gap: 0px 0px;*/  
+  gap: 0px;
+
 }
 
 .header {
@@ -16,15 +20,21 @@
 }
 
 .header img{
-  width: 110px;
+  width: 10%;
+  height: 100%;
 }
 
 .nav {
   grid-area: n; 
   background-color:aqua; 
+  
 }
 
 .content {
   grid-area: c;
-  background-color:lightsteelblue
+  background-color:lightsteelblue;
+}
+.content img {
+  width: 100%;
+  height: 100%;
 }
