@@ -1,34 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
 const App = () => {
   return (
-    <div>
-      <Header/>
-      <Technologies/>
+    <div className='app-wrapper'>
+      <header className='header'>
+        <img src='https://i.pinimg.com/originals/15/43/a5/1543a57ceedae82fa44dd86602dc2e50.jpg'></img>
+      </header>
+
+      <nav className='nav'>
+        <div>
+          Profile
+        </div>
+        <div className='content'>
+          Messages
+        </div>
+      </nav>
+
+      <div>
+        Main content
+      </div>
+
     </div>)
 };
-
-const Technologies = () => {
-  return (
-    <div>
-      <ul>
-        <li>html</li>
-        <li>css</li>
-        <li>javascript</li>
-        <li>react</li>
-      </ul>
-    </div>
-  )
-}
-
-const Header = () => {
-  return (<div>
-    <h4><a href="#s">Home</a></h4>
-    <h4><a href="#s">New Feeds</a></h4>
-    <h4><a href="#s">Messages</a></h4>
-  </div>)
-};
-
 
 export default App;
