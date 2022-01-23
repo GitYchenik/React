@@ -1,4 +1,8 @@
 //нужно вставить музыку
 
-var audio = new Audio('audio_file.mp3');
-audio.play();
+const Audio = () => {
+    return(
+        <audio src="./a.mp3" autoplay="true"></audio>
+    )
+    };
+export default Audio;
