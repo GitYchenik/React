@@ -12,29 +12,4 @@
   /*gap: 0px 0px;*/  
   gap: 0px;
 
-}
-
-.header {
-  grid-area: h;
-  background-color:rosybrown;
-}
-
-.header img{
-  width: 10%;
-  height: 100%;
-}
-
-.nav {
-  grid-area: n; 
-  background-color:aqua; 
-  
-}
-
-.content {
-  grid-area: c;
-  background-color:lightsteelblue;
-}
-.content img {
-  width: 100%;
-  height: 100%;
-}
+};
