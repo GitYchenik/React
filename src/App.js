@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import Header from './components/Header.jsx';
-import NavBar from './components/NavBar.jsx';
-import Profile from './components/Profile.jsx';
-import Audio from './components/sound';
+import Header from './components/Header/Header.jsx';
+import NavBar from './components/NavBar/NavBar.jsx';
+import Profile from './components/Profile/Profile.jsx';
+import Audio from './components/songs/sound.js';
 const App = () => {
   return (
     <div className='app-wrapper'>
