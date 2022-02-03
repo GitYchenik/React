@@ -12,4 +12,9 @@
   /*gap: 0px 0px;*/  
   gap: 0px;
 
+}
+
+.app-wrapper-content {
+    grid-area: c;
+    background-color:lightsteelblue;
 };
