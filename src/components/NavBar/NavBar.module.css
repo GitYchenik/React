@@ -3,9 +3,10 @@
     background-color:aqua; 
     
   }
-.item {
+.item a{
   color: white;
+  text-decoration: none;
 }
-.item_active {
+a[class="active"]{
   color: gold;
 }

@@ -6,19 +6,24 @@ import NavBar from './components/NavBar/NavBar.jsx';
 import Profile from './components/Profile/Profile.jsx';
 import Audio from './components/songs/sound.js';
 import Dialog from './components/Dialog/Dialog.jsx';
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className='app-wrapper'>
-      <Audio></Audio>
-      <Header />
-      <NavBar />
-      <div className='app-wrapper-content'>
-        <Dialog />
+    <BrowserRouter>
+      <div className='app-wrapper'>
+        <Header />
+        <NavBar />
+        <div className='app-wrapper-content'>
+          <Routes> 
+            <Route path='Profile' element={<Profile />} />
+            <Route path='Dialog' element={<Dialog />} />
+          </Routes>
+        </div>
       </div>
-      {/* <Profile /> */}
+    </BrowserRouter>
 
-    </div>)
-};
+  )
+}
 
 export default App;
