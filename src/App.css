@@ -7,8 +7,8 @@
   "h h"
   "n c";
 
-  grid-template-columns: 10% 90%; 
-  grid-template-rows: 10% 90%; 
+  grid-template-columns: 150px 95%; 
+  grid-template-rows: 70px 90%; 
   /*gap: 0px 0px;*/  
   gap: 0px;
 
