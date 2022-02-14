@@ -1,12 +1,16 @@
 .nav {
     grid-area: n; 
     background-color:aqua; 
-    
+    padding-top: 10px;    /*отступ сверху*/
+    padding-left: 10px;  /*отступ слева*/   
+    font-size: 20px;  /*размер шрифта*/
+    line-height: 30px; /*Интервал между строками списка*/
+      
   }
 .item a{
   color: white;
   text-decoration: none;
-  padding: 10px;
+
 }
 a[class="active"]{
   color: gold;
