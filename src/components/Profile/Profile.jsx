@@ -3,11 +3,12 @@ import classes from './Profile.module.css'
 import MyPosts from './MyPosts/MyPosts.jsx';
 import ProfileInfo from './ProfileInfo/ProfileInfo';
 //основная страница правая нижняя 
-const Profile = () => {
+const Profile = (props) => {
+
     return (
         <div className={classes.content}>
             <ProfileInfo />
-            <MyPosts />
+            <MyPosts posts={props.posts}/>
         </div>
     )
 }
