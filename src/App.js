@@ -7,7 +7,6 @@ import Profile from './components/Profile/Profile.jsx';
 import Dialog from './components/Dialog/Dialog.jsx';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
-
 const App = (props) => {
  
   return (
