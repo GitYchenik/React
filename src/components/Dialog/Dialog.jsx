@@ -11,12 +11,17 @@ const Dialogs = (props) => {
 
     return (
         <div className={style.dialogs}>
+            <div className={style.avatar}>
+                <img src='https://pixelbox.ru/wp-content/uploads/2021/05/ava-vk-animal-91.jpg'></img>
+                <img src='https://pixelbox.ru/wp-content/uploads/2021/05/ava-vk-animal-91.jpg'></img>
+            </div>
             <div className={style.dialogItems}>
-                {dialogsElements}
+                <img src='https://pixelbox.ru/wp-content/uploads/2021/05/ava-vk-animal-91.jpg'></img> {dialogsElements}
             </div>
             <div className={style.messages}>
                 {messagesElements}
             </div>
+
 
         </div>
     )
